@@ -1,0 +1,32 @@
+<!-- Explain the difference between justify-items and justify-self using code examples -->
+ <!-- Ans: 1. justify-items:
+ The justify-items property sets how all items inside a grid container are aligned horizontally within their grid cells. It applies to all child elements by default. -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <style>
+    .container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-items: center; /* Aligns all items to the center */
+}
+
+.container div {
+  border: 1px solid black;
+}
+
+ </style>
+ <body>
+    <div class="container">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+      </div>
+      
+ </body>
+ </html>

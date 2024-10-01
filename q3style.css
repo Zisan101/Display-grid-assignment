@@ -1,0 +1,9 @@
+.grid {
+  display: grid;
+  grid-template-columns: 100px 100px; /* Define 2 columns */
+  grid-auto-rows: 50px; /* Automatically created rows will have 50px height */
+}
+
+.grid div {
+  border: 1px solid black;
+}

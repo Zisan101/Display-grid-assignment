@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-items: start; /* Default align to start */
+}
+
+.item1 {
+  justify-self: end; /* Only Item 1 is aligned to the right */
+}
+
+.container div {
+  border: 1px solid black;
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="item1">Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+      </div>
+      
+</body>
+</html>

@@ -1,0 +1,38 @@
+.outer-box {
+    border: 2px solid black; /* Border around the outer box */
+    padding: 10px;
+    height: 200px;
+    width: 500px; /* Width of the outer box */
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px; /* Space between the boxes */
+    width: 300px; /* Total width of the container */
+  }
+  
+  .boxA {
+    border: 2px solid black; /* Solid border for each box */
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .boxB {
+    border: 2px solid black; /* Solid border for each box */
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    justify-self: end;
+  }
+  .boxC {
+    border: 2px solid black; /* Solid border for each box */
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .boxD {
+    border: 2px solid black; /* Solid border for each box */
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+  }
